@@ -1,0 +1,271 @@
+:root {
+  --text-white: rgba(255, 255, 255, 1);
+  --logo-black: rgba(0, 0, 0, 1);
+  --text-color: #212121;
+  --foot-box-color: rgba(47, 48, 58, 1);
+  --active-color: rgba(33, 150, 243, 1);
+  --contacts-color: rgba(117, 117, 117, 1);
+  --buttons-color: rgba(245, 244, 250, 1);
+  --border-line: rgba(238, 238, 238, 1);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--text-color);
+  width: 1600px;
+}
+/* 
+pre {
+  font-family: inherit;
+  font-size: 36px;
+  color: var(--text-color);
+} */
+.visual-hidden {
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 30px;
+  width: 1px;
+}
+.navig {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.conteiner {
+  display: flex;
+  align-items: center;
+}
+.navig-bord {
+  border: 1px solid #ececec;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.19;
+  letter-spacing: 0.03em;
+  color: var(--active-color);
+}
+.logo-header {
+  color: var(--logo-black);
+}
+.logo-footer {
+  color: var(--text-white);
+}
+
+.logo-pos {
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.list {
+  list-style: none;
+}
+.contacts {
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  color: var(--contacts-color);
+}
+.list-a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.active {
+  color: var(--active-color);
+}
+.bord {
+  background-color: var(--text-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  border: 1px solid var(--border-line);
+  padding: 0;
+}
+.bord-port {
+  border: 1px solid #eeeeee;
+}
+.bord-wrap {
+  flex-wrap: wrap;
+}
+
+.contacts:hover,
+.contacts:focus,
+.list-a:hover,
+.list-a:focus {
+  color: var(--active-color);
+}
+
+.secbox {
+  background-color: var(--foot-box-color);
+}
+.efectchoise {
+  width: 696px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-white);
+  margin: 0 452px 30px 452px;
+  padding-top: 200px;
+}
+.but-filter {
+  padding-top: 91px;
+  padding-bottom: 34px;
+  padding-left: 512px;
+}
+.but-order {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  background-color: rgba(24, 140, 232, 1);
+  color: var(--text-white);
+  letter-spacing: 0.06em;
+  border: none;
+  margin-left: 692px;
+  margin-bottom: 200px;
+}
+.but-list {
+  align-items: center;
+}
+
+.but {
+  cursor: pointer;
+  font-family: inherit;
+  background-color: var(--buttons-color);
+  color: var(--text-color);
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  border-radius: 4px;
+}
+.but:hover,
+.but:focus,
+.but-order:focus,
+.but-order:hover {
+  background-color: var(--active-color);
+  color: var(--text-white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.grid {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 30px;
+  padding: 0;
+}
+.title-p {
+  color: var(--contacts-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  margin-left: 24px;
+}
+.title-h2 {
+  color: var(--text-color);
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-left: 24px;
+}
+.advantage-h3 {
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.advantage-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--contacts-color);
+  width: 270px;
+}
+.advantage-move,
+.whatwedo-move {
+  margin: 94px 215px 94px 215px;
+  padding: 0;
+}
+.whatwedo {
+  width: 366px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-left: 402px; /*спитатися чи так можна? має бути 617рх, але за рахунок того, що сунули цілий блок на 215рх, тому відняли від загального*/
+}
+
+.ourteambox {
+  background-color: var(--buttons-color);
+}
+.ourteam {
+  width: 266px; /*у 264рх якась проблема. не влазить текст в один рядок. прийшлось добавити 2рх. в результаті 266рх*/
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  padding-top: 94px;
+  margin-left: 668px;
+  text-transform: capitalize;
+}
+.ourteam-our {
+  text-transform: lowercase;
+}
+.ourteam-name {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.ourteam-position {
+  color: var(--contacts-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.footbox {
+  background-color: var(--foot-box-color);
+  height: 252px;
+}
+.footaddr {
+  color: var(--text-white);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
