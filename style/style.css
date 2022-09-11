@@ -288,6 +288,9 @@ img {
 .footaddr-marge {
     margin-bottom: 9px;
 }
+.nul-padding {
+    padding-bottom: 0;
+}
 /********************* PORTFOLIO *********************/
 
 .but-filter {
@@ -321,7 +324,7 @@ img {
 }
 .border {
     border: 1px solid #eeeeee;
-    padding: 20px 0;
+    padding: 20px 24px;
 }
 .title-p {
     color: var(--contacts-color);
@@ -330,15 +333,15 @@ img {
     line-height: 1.875;
     letter-spacing: 0.03em;
     text-transform: capitalize;
-    margin-left: 24px;
+    /* padding: 0 24px; */
 }
 .title-h2 {
     color: var(--text-color);
-    text-transform: capitalize;
     font-style: normal;
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin-left: 24px;
+    /* padding: 0 24px; */
 }
