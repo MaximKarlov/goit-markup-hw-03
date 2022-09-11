@@ -142,6 +142,8 @@ img {
 
 .contacts:hover,
 .contacts:focus,
+.foot-contacts:hover,
+.foot-contacts:focus,
 .list-a:hover,
 .list-a:focus {
     color: var(--active-color);
@@ -222,7 +224,6 @@ img {
     line-height: 1.17;
     text-align: center;
     margin: 0 auto;
-    padding-bottom: 50px;
 }
 .whatwedo {
     min-width: 366px;
@@ -318,6 +319,7 @@ img {
 }
 .border {
     border: 1px solid #eeeeee;
+    padding: 20px 0;
 }
 .title-p {
     color: var(--contacts-color);
