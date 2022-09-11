@@ -198,25 +198,6 @@ img {
     border-radius: 4px;
 }
 
-.title-p {
-    color: var(--contacts-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.875;
-    letter-spacing: 0.03em;
-    text-transform: capitalize;
-    margin-left: 24px;
-}
-.title-h2 {
-    color: var(--text-color);
-    text-transform: capitalize;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    margin-left: 24px;
-}
 .advantage-h3 {
     color: var(--text-color);
     text-transform: uppercase;
@@ -307,9 +288,12 @@ img {
 /********************* PORTFOLIO *********************/
 
 .but-filter {
-    padding-top: 91px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-family: inherit;
+    gap: 8px;
     padding-bottom: 34px;
-    padding-left: 512px;
 }
 
 .but {
@@ -334,4 +318,23 @@ img {
 }
 .border {
     border: 1px solid #eeeeee;
+}
+.title-p {
+    color: var(--contacts-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-left: 24px;
+}
+.title-h2 {
+    color: var(--text-color);
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-left: 24px;
 }
