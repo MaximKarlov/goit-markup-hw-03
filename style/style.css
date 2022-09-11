@@ -335,7 +335,6 @@ img {
     line-height: 1.875;
     letter-spacing: 0.03em;
     text-transform: capitalize;
-    /* padding: 0 24px; */
 }
 .title-h2 {
     color: var(--text-color);
@@ -345,5 +344,4 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    /* padding: 0 24px; */
 }
