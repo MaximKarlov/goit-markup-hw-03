@@ -139,12 +139,6 @@ img {
     border: none;
     align-items: center;
 }
-.bord-port {
-    border: 1px solid #eeeeee;
-}
-.bord-wrap {
-    flex-wrap: wrap;
-}
 
 .contacts:hover,
 .contacts:focus,
@@ -331,4 +325,13 @@ img {
     letter-spacing: 0.03em;
     text-transform: capitalize;
     border-radius: 4px;
+}
+
+.bord-wrap {
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-basis: calc(100% / 3 - 30px);
+}
+.border {
+    border: 1px solid #eeeeee;
 }
