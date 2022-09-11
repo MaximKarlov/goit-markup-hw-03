@@ -80,7 +80,7 @@ img {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--active-color);
     align-items: center;
@@ -174,11 +174,7 @@ img {
     display: flex;
     gap: 30px;
 }
-.but-filter {
-    padding-top: 91px;
-    padding-bottom: 34px;
-    padding-left: 512px;
-}
+
 .but-order {
     display: block;
     cursor: pointer;
@@ -190,6 +186,7 @@ img {
     color: var(--text-white);
     letter-spacing: 0.06em;
     border: none;
+    border-radius: 4px;
     margin: 0 auto;
     margin-bottom: 200px;
 }
@@ -197,20 +194,6 @@ img {
     align-items: center;
 }
 
-.but {
-    cursor: pointer;
-    font-family: inherit;
-    background-color: var(--buttons-color);
-    color: var(--text-color);
-    border: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    text-transform: capitalize;
-    border-radius: 4px;
-}
 .but:hover,
 .but:focus,
 .but-order:focus,
@@ -329,3 +312,24 @@ img {
     margin-bottom: 9px;
 }
 /********************* PORTFOLIO *********************/
+
+.but-filter {
+    padding-top: 91px;
+    padding-bottom: 34px;
+    padding-left: 512px;
+}
+
+.but {
+    cursor: pointer;
+    font-family: inherit;
+    background-color: var(--buttons-color);
+    color: var(--text-color);
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
