@@ -47,6 +47,9 @@ img {
     align-items: center;
 }
 
+.header-item:first-child {
+    margin-left: 93px;
+}
 .header-item:not(:first-child) {
     margin-left: 50px;
 }
@@ -87,7 +90,7 @@ img {
 }
 .logo-header {
     color: var(--logo-black);
-    margin-right: 93px;
+    /* margin-right: 93px; */
 }
 .logo-footer {
     color: var(--text-white);
